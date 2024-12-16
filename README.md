@@ -5,17 +5,25 @@ This project is part of the AI&ML course. It attempts to study the acceptance ra
 This data from the UCI Machine Learning repository collected via a survey on Amazon Mechanical Turk is used in this project. 
 
 ## Analysis
-### Coupon Category - "Bar"
+### Data Cleanup
+Data cleanup is the first step before one starts analysis. Steps taken during cleanup 
+* drop an entire column where more than 99% of the data was null values
+* drop all null value records when scope is entire dataset
+* selectively drop null value records only for a subset of data when analysing a subset of coupons  
+
+
+### Coupon Categories
+#### "Bar"
 **Goal**
-analyze the data and understand the factors that could affect the acceptance-rate for Bar coupons
+Analyze the data and understand the factors that could affect the acceptance-rate for Bar coupons
 
 **Findings**
 The drivers are more likely to accept the bar coupons, if
 - they visit a bar more frequently
 - do not have kids as passengers
-- Older than 30
+- older than 30
 
-### Coupon Category - "Carry out & Take away"
+#### "Carry out & Take away"
 **Goal**
 analyze the popularity of these coupons based on income groups and driving directions.
 
