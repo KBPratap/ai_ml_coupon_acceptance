@@ -25,3 +25,5 @@ the 'Carry out & Take away' coupons are popular across different income groups a
 When checking for driving directions, the data shows some counter-intuitive patterns:
 - the acceptance-rate is higher at 76% when driving direction is opposite
 - the acceptance-rate seems to be lower as 71% when driving direction is same.
+
+A detailed analysis can be found in the [jupyter notebook](https://github.com/KBPratap/ai_ml_coupon_acceptance/blob/main/prompt.ipynb)
